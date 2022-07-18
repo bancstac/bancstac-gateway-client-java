@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bancstac</groupId>
 	<artifactId>bancstac-gateway-client-java-public</artifactId>
-	<version>4.0.1</version>
+	<version>4.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>bancstac-gateway-client-java-public</name>
 	<url>http://maven.apache.org</url>
@@ -37,7 +37,7 @@
 		<url>https://github.com/bancstac/bancstac-gateway-client-java-public</url>
 		<connection>scm:git:ssh://git@github.com/bancstac/bancstac-gateway-client-java-public.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/bancstac/bancstac-gateway-client-java-public.git</developerConnection>
-		<tag>bancstac-gateway-client-java-public-4.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
