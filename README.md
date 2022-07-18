@@ -1,1 +1,1 @@
-# bancstac-gateway-client-java
+# bancstac-gateway-client-java-public
