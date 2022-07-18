@@ -4,13 +4,9 @@
             <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%p] [%t] [%c{1}.%M:%L] - %m%n</pattern>
 		</encoder>
 	</appender>
-	<category name="org.hibernate">
-		<priority value="WARN" />
-	</category>
-	<category name="org.springframework">
-		<priority value="WARN" />
-	</category>
-	<root level="debug">
+	<logger name="org.hibernate" level="WARN" />
+	<logger name="org.springframework" level="WARN" />
+	<root level="INFO">
  		<appender-ref ref="CONSOLE" />
 	</root>
 </configuration>
